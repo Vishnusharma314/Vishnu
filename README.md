@@ -9,7 +9,7 @@ This project is a simple flight availability check application designed to allow
 - **Backend**: Laravel
 - **Frontend**: Vue.js
 - **UI Framework**: Tailwind CSS / Bootstrap
-
+```bash
 ## Directory Structure
 
 /project-root
@@ -44,12 +44,13 @@ This project is a simple flight availability check application designed to allow
 ├── composer.json         # Composer dependencies
 ├── package.json          # Node.js dependencies
 └── README.md             # This file
-
+```
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
-
+git clone https://github.com/Vishnusharma314/Vishnu.git
+cd flight-checker
+```
+```bash
 cp .env.example .env
 
 composer install
